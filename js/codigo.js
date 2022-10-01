@@ -25,7 +25,6 @@ let perdidas = 0
 while (trionfos < 3 && perdidas < 3) {
     Pc = aleatorio(1,3)
     jugador = prompt("Elige: 1 papa piedra, 2 para papel, 3 para tigera")
-    //alert("Eligiste " + jugador)
     alert("Pc elige: " + eleccion(Pc))
     alert("Tu eliges: " + eleccion(jugador))
 
